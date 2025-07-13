@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Processing API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <label for="fileName">Select an Image</label>
+      <input id="fileName" name="file" type="file" accept=".jpg,.png,.jpeg" placeholder="File Name" />
+      <input type="number" name="width" placeholder="width" />
+      <input type="number" name="height" placeholder="height" />
+      <input type="submit" id="submit" />
+    </form>
+  
+    <div id="gallery" class="gallery"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+:root {
+    --white: #FFFCFB;
+    --blue: #093FB4;
+    --red-1: #ED3500;
+    --red-2: #FFD8D8;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('Inter.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Inter;
+    background-color: var(--white);
+}
+
+section {
+    display: flex;
+    justify-items: center;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 15vw;
+}
+
+#uploadForm {
+    display: inline-block;
+}
+
+#fileName{
+    display: none;
+}
+
+.popup {
+    background-color: var(--blue);
+    color: var(--white);
+    min-width: 50vw;
+    padding: 20px 25px;
+    border-radius: 999999999999px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.gallery .con {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  position: relative;
+}
+
+.delete {
+  height: 30px;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
