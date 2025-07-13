@@ -1,34 +1,20 @@
 # How to Use This App
 
-1. **Clone the Repository**
-
-   ```
-   git clone https://github.com/Ahmed-Nehad/image-resizer-project.git
-   cd image-resizer-project
-   ```
-
-2. **Install Dependencies**
-   Make sure you have [Node.js](https://nodejs.org/) installed. Then, install the required packages:
-
-   ```
-   npm install
-   ```
-
-3. **Build the Application**
+1. **Build the Application**
    Compile the TypeScript source code:
 
    ```
    npm run build
    ```
 
-4. **Start the Application**
+2. **Start the Application**
    Run the app:
 
    ```
    npm run start
    ```
 
-5. **Access the application at `http://localhost:3000`**
+3. **Access the application at `http://localhost:3000`**
 
 ### Endpoints
 
